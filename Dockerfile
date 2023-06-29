@@ -3,5 +3,5 @@ WORKDIR /app
 COPY package.json /app
 RUN npm install
 COPY . /app
-CMD Exam.js
+CMD  node Exam.js
 EXPOSE 9000
